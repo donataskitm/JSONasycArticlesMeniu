@@ -1,0 +1,84 @@
+  .pav{
+    position: absolute;
+        top:0%;
+        left: 0%;
+     text-transform: capitalize;
+     background: grey;
+     padding: 0em 2em 0em 2em;
+  }
+  .kont{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+
+}
+
+.meniu {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+list-style: none;
+width:100%;
+padding-left:0px;
+
+}
+
+.meniu li  {
+text-transform: capitalize;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.meniu a {
+  color: #fff;
+  margin-left: 10px;
+    background-color: rgb(64, 9, 90);
+  text-decoration: none;
+  list-style: none;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  justify-content: space-around;
+    border-radius: 3px;
+    
+}
+
+
+.meniu a:hover{
+  background-color: #66397A;
+  border-radius: 3px;
+}
+
+.fl{
+   margin: auto;
+   width:100%;
+}
+
+.fonas0{
+background:#8BC63C;
+}
+.fonas1{
+background: #28A89F;
+}
+.fonas2{
+background: #922590;
+}
+.fonas3{
+background:#F9AF3E;
+}
+.fonas4{
+background:#2C74BD;
+}
+.fonas5{
+background:#EE5A2A;
+}
+.fonas6{
+background:grey;
+}
+.fonas7{
+background:rgb(47, 36, 146);
+}
